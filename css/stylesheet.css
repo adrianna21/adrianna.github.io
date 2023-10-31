@@ -17,6 +17,7 @@ header {
     width: 400px;
     top: 7%;
     right: 300px;
+    left: 300px;
     font-size: 48px;
     display: flex;
     text-decoration: none;
@@ -64,6 +65,7 @@ h2 {
     background-size: auto;
     width: 20rem;
     text-align: center;
+    border-radius: 53px;
     
 }
 
@@ -103,6 +105,16 @@ footer {
     text-decoration: none;
     align-items: center;
 }
+
+/* overlay for index */
+#overlayheader {
+    position:absolute;
+    left: 50%;
+    text-align: center;
+    display: flex;
+    right: 300px;
+}
+
 /* overlay for index */
 #overlay {
     position:absolute;
@@ -461,3 +473,17 @@ section {
     position:absolute;
 }
 
+/* unidentifiedbigimage */
+#unidentifiedbig img {
+    border-radius: 53px;
+    border: 10px #FF99B6 solid;
+    grid-column: 1/ span 10;
+    text-align: left;
+}
+
+/* go back */
+#goback {
+    text-align: center;
+    width: 300px;
+    border-radius: 53px;
+}
